@@ -380,7 +380,7 @@ h1, h2 {
 }
 
 #get-started {
-    height: 600px;
+    height: 400px;
 }
 
 #started-text {
@@ -391,12 +391,24 @@ h1, h2 {
 }
 
 .started-text-1 {
-    width: 50%;
+    width: 100%;
     float: left;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
-    padding-left: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.started-text-1 h2 {
+    font-size: 280%;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+.started-text-1 p {
+    font-size: 150%;
+    width: 75%;
 }
 
 #started-form {
@@ -458,4 +470,25 @@ h1, h2 {
 .join-button-2:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a
 }
