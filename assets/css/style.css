@@ -78,8 +78,7 @@ h1, h2 {
 
 .hero-text {
     text-align: center;
-}
-
-.hero-text-2 {
-    text-align: center;
+    font-size: 280%;
+    width: 65%;
+    color: #fff
 }
