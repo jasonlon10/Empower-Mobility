@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Nunito:wght@500&display=swap');
+
+
+   * {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Alegreya, sans-serif;
+    font-weight: 500;
+    color: #202d34
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #202d34
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    padding-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #202d34;
+}
+
+.active {
+    border-bottom: 1px solid #202d34;
+}
+
+/* Hero Image */
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image-2.png') no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text-2 {
+    text-align: center;
+}
