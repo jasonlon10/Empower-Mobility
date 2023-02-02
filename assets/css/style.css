@@ -438,6 +438,113 @@ h1, h2 {
     margin: 0 auto;
 }
 
+/* Programmes Page */
+
+#hero-outer-2 {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image-2 {
+    height: 150px;
+    width: 100%;
+    background-color: #59efe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #202d34
+}
+
+.hero-text-2 {
+    text-align: center;
+    font-size: 280%;
+    width: 65%;
+    color: #fff
+}
+#hero-image-2 h2 {
+    color: #202d34;
+}
+
+#programmes-2 {
+    height: 500px;
+}
+
+#beg {
+    background-image: url(../images/Beginner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#inter {
+    background-image: url(../images/Inter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#adv {
+    background-image: url(../images/Adv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#beg h2, #inter h2, #adv h2 {
+    color: #fff;
+    font-size: 300%;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#beg h3, #inter h3, #adv h3 {
+    color: #fff;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#programmes-2 div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .7);
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    padding: 0px 0 0 0px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.download-button {
+    margin: auto;
+    margin-top: 180px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    top: 50%;
+    text-align: center;
+    font-size: 100%;
+    background-color: #59efe3;
+    color: #202d34;
+    display: block;
+}
+
 /* Download Page */
 
 #form-section {
@@ -689,6 +796,52 @@ footer {
         transform: translate(-50%, -50%);
         margin: 0;
     }
+
+    #programmes-2 {
+        height: 750px;
+    }
+    #programmes-2 > div {
+        width: 100%;
+        clear: both;
+        height: 250px;
+        padding: 0;
+    }
+
+    #beg h2, #inter h2, #adv h2 {
+        color: #fff;
+        font-size: 200%;
+        text-align: center;
+        position: relative;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    #beg h3, #inter h3, #adv h3 {
+        color: #fff;
+        font-size: 150%;
+        text-align: center;
+        position: relative;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    .download-button {
+        margin: auto;
+        margin-top: 80px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        top: 50%;
+        text-align: center;
+        font-size: 100%;
+        background-color: #59efe3;
+        color: #202d34;
+        display: block;
+    }
+
 }
 
 /* For medium screen sizes 950px and down */
@@ -704,6 +857,10 @@ footer {
 
     #hero-image {
         left: 0;
+    }
+
+    .hero-text-2 {
+        font-size: 85%;
     }
 
     #mobility-benefits {
@@ -796,6 +953,10 @@ footer {
     .hero-text {
         font-size: 250%;
     }
+
+    .hero-text-2 {
+        font-size: 150%;
+    }
     
     #our-approach {
         font-size: 85%;
@@ -832,5 +993,9 @@ footer {
 
     #form-section {
         height: 1000px;
+    }
+
+    #programmes-2 > div {
+        font-size: 85%;
     }
 }
