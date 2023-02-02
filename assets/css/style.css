@@ -599,7 +599,7 @@ h1, h2 {
     margin: 0 auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
     padding: 30px;
 }
@@ -816,6 +816,7 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
         margin: 0;
+        padding-bottom: 10px;
     }
 
     #beg h3, #inter h3, #adv h3 {
@@ -850,7 +851,7 @@ footer {
     #menu {
         clear: left;  
         float: left;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -946,6 +947,11 @@ footer {
     #get-started {
         height: 500px;
     }
+
+    #programmes-header {
+        margin-top: 10px;
+        height: 150px;
+    }
 }
 
 /* For screen sizes 800px and down */
@@ -996,6 +1002,6 @@ footer {
     }
 
     #programmes-2 > div {
-        font-size: 85%;
+        font-size: 75%;
     }
 }
