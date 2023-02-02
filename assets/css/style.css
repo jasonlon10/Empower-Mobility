@@ -249,3 +249,114 @@ h1, h2 {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
+/* Our Approach Section */
+
+#our-approach {
+    height: 800px;
+}
+
+.approach-header {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#text-column-upper {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+
+.text-column-1 {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+#image-column-upper {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-image: url('../images/hero-image-2.png');
+    height: 200px;
+}
+
+.image-column-1 {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-left: 40px;
+}
+
+#text-column-middle {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    height: 200px;
+}
+
+.text-column-2 {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+#image-column-middle {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background-image: url('../images/hero-image-2.png');
+    height: 200px;
+}
+
+.image-column-2 {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-left: 40px;
+}
+
+#text-column-lower {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+
+.text-column-3 {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+#image-column-lower {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-image: url('../images/hero-image-2.png');
+    height: 200px;
+}
+
+.image-column-3 {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-left: 40px;
+}
